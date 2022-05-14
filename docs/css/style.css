@@ -50,9 +50,8 @@ nav ul li a:hover,
   color: #fff;
   background-color: #400101;
 }
-#top_main {
-  background-color: #b49396;
-  height: 400px;
+#top_main img {
+  width: 100%;
 }
 #main_wrapper {
   width: 980px;

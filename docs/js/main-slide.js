@@ -2,5 +2,5 @@ new Splide('.splide', {
   type: 'loop',
   autoplay: true,
   perPage: 1,
-  interval: 4000,
-}).mount();
+  interval: 6000,
+}).mount()
