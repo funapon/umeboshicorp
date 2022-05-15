@@ -1,95 +1,99 @@
 <!DOCTYPE html>
 <html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>うめぼしコーポレーション 梅干しの美味しさと可愛さで皆さんの日常を彩り豊かに素晴らしいものにします</title>
+    <link rel="stylesheet" href="./libs/splide.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Murecho:wght@200&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>うめぼしコーポレーション 梅干しの美味しさと可愛さで皆さんの日常を彩り豊かに素晴らしいものにします</title>
-  <link rel="stylesheet" href="./libs/splide.min.css">
-  <link rel="stylesheet" href="./css/style.css" />
-</head>
-
-<body>
-  <header>
-    <div id="header_wrapper">
-      <a><img src="./images/16.png" alt="うめぼしコーポレーションのロゴ" /></a>
-      <h1>うめぼしコーポレーション</h1>
-    </div>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#">TOP</a></li>
-      <li><a href="#">商品について</a></li>
-      <li><a href="#">ABOUT</a></li>
-      <li><a href="#">社長紹介</a></li>
-      <li><a href="#">年表</a></li>
-      <li><a href="#">経営理念</a></li>
-    </ul>
-  </nav>
-  <section id="top_main" class="splide" aria-label="うめぼしコーポレーションメインセクション">
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide">
-          <img src="./images/main.jpg" alt="うめぼしコーポレーションのメイン画像">
-        </li>
-        <li class="splide__slide">
-          <img src="./images/main.jpg" alt="うめぼしコーポレーションのメイン画像">
-        </li>
+  <body>
+    <header>
+      <div id="header_wrapper">
+        <a><img src="./images/logo.svg" alt="うめぼしコーポレーションのロゴ" /></a>
+        <h1>うめぼしコーポレーション</h1>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li><a id="current_page" href="#">TOP</a></li>
+        <li><a href="#">商品について</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">社長紹介</a></li>
+        <li><a href="#">年表</a></li>
+        <li><a href="#">経営理念</a></li>
       </ul>
+    </nav>
+    <section id="top_main" class="splide" aria-label="うめぼしコーポレーションメインセクション">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="./images/main_01.jpg" alt="うめぼしコーポレーションのメイン画像" />
+          </li>
+          <li class="splide__slide">
+            <img src="./images/main_02.jpg" alt="究極のうめぼしのバナー" />
+          </li>
+          <li class="splide__slide">
+            <img src="./images/main_03.jpg" alt="うめぼしはおいしいよのバナー" />
+          </li>
+        </ul>
+      </div>
+      <button class="splide__toggle" type="button">
+        <span class="splide__toggle__play">Play</span>
+        <span class="splide__toggle__pause">Pause</span>
+      </button>
+    </section>
+    <div id="main_wrapper">
+      <main>
+        <article>
+          <h2>PRODUCT</h2>
+          <p>商品について</p>
+          <section>
+            <h3>食品</h3>
+            <div class="product_wrapper">
+              <div class="product">
+                <p><img src="./images/16.png" alt="商品の写真" /></p>
+                <p>商品紹介の文章</p>
+              </div>
+              <div class="product">
+                <p><img src="./images/16.png" alt="商品の写真" /></p>
+                <p>商品紹介の文章</p>
+              </div>
+              <div class="product">
+                <p><img src="./images/16.png" alt="商品の写真" /></p>
+                <p>商品紹介の文章</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h3>健康・ビューティー</h3>
+            <div class="product_wrapper">
+              <div class="product">
+                <p><img src="./images/16.png" alt="商品の写真" /></p>
+                <p>商品紹介の文章</p>
+              </div>
+              <div class="product">
+                <p><img src="./images/16.png" alt="商品の写真" /></p>
+                <p>商品紹介の文章</p>
+              </div>
+              <div class="product">
+                <p><img src="./images/16.png" alt="商品の写真" /></p>
+                <p>商品紹介の文章</p>
+              </div>
+            </div>
+          </section>
+        </article>
+      </main>
     </div>
-    <button class="splide__toggle" type="button">
-      <span class="splide__toggle__play">Play</span>
-      <span class="splide__toggle__pause">Pause</span>
-    </button>
-  </section>
-  <div id="main_wrapper">
-    <main>
-      <article>
-        <h2>PRODUCT</h2>
-        <p>商品について</p>
-        <section>
-          <h3>食品</h3>
-          <div class="product_wrapper">
-            <div class="product">
-              <p><img src="./images/16.png" alt="商品の写真" /></p>
-              <p>商品紹介の文章</p>
-            </div>
-            <div class="product">
-              <p><img src="./images/16.png" alt="商品の写真" /></p>
-              <p>商品紹介の文章</p>
-            </div>
-            <div class="product">
-              <p><img src="./images/16.png" alt="商品の写真" /></p>
-              <p>商品紹介の文章</p>
-            </div>
-          </div>
-        </section>
-        <section>
-          <h3>健康・ビューティー</h3>
-          <div class="product_wrapper">
-            <div class="product">
-              <p><img src="./images/16.png" alt="商品の写真" /></p>
-              <p>商品紹介の文章</p>
-            </div>
-            <div class="product">
-              <p><img src="./images/16.png" alt="商品の写真" /></p>
-              <p>商品紹介の文章</p>
-            </div>
-            <div class="product">
-              <p><img src="./images/16.png" alt="商品の写真" /></p>
-              <p>商品紹介の文章</p>
-            </div>
-          </div>
-        </section>
-      </article>
-    </main>
-  </div>
-  <footer>
-    <small>Copyright©2022 x.All rights reserved.</small>
-  </footer>
-  <script src="./libs/splide.min.js"></script>
-  <script src="./js/main-slide.js"></script>
-</body>
-
+    <footer>
+      <small>Copyright©2022 x.All rights reserved.</small>
+    </footer>
+    <script src="./libs/splide.min.js"></script>
+    <script src="./js/main-slide.js"></script>
+  </body>
 </html>
